@@ -37,7 +37,7 @@ This application was developed based on an MVC architecture model (Model, View, 
 
 ##### **Create User**
     
-    - Route: http://localhost:3000/login
+    - Route: http://localhost:3000/users
     - HTTP Method: POST
     - Model: User
     - Controller: UserController
