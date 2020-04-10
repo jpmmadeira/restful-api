@@ -66,7 +66,7 @@ This application was developed based on an MVC architecture model (Model, View, 
 
 ### :wrench: **Configurations**
 
-#### :file_folder: src/config/authConfig.js
+#### :file_folder: src/config/
 
     - authConfig.js (already with MD5 Encryption for jwt.sign)
     - database.js (needs username, password and database name)
