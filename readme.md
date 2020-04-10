@@ -1,13 +1,13 @@
 # <center> RESTful API </center>
 
 
-## :page_facing_up: About
+### :page_facing_up: About
 
 This RESTful API is part of the backend of an application that i am developing.
 
 Their sharing aims to show some of the knowledge that i have acquired over the past few months, in which i have dedicated myself to the study of the most varied development technologies for the web.
 
-## :package: Dependencies
+### :package: Dependencies
 
 Dependencies used for the development of the application.
 
@@ -20,22 +20,22 @@ Dependencies used for the development of the application.
     - sequelize-cli: Sequelize Command Line Interface
     - yup: HTTP Request Validations
 
-## :package: Dev Dependencies
+### :package: Dev Dependencies
 
 All other dev dependencies, which are not listed below, are merely for linting the code.
 
     - nodemon: Auto-Reload Application on File Changes
     - sucrase: Import and Export Syntax
 
-## :star: **Features**
+### :star: **Features**
 This application was developed based on an MVC architecture model (Model, View, Controller).
 
-#### Note: The view will be represented in the application by a web page and possibly a mobile application
+##### Note: The view will be represented in the application by a web page and possibly a mobile application
 
 
-### :twisted_rightwards_arrows: **Routes**
+#### :twisted_rightwards_arrows: **Routes**
 
-#### **Create User**
+##### **Create User**
     
     - Route: http://localhost:3000/login
     - HTTP Method: POST
@@ -43,7 +43,7 @@ This application was developed based on an MVC architecture model (Model, View, 
     - Controller: UserController
 
 
-#### **Update User**
+##### **Update User**
     
     - Route: http://localhost:3000/users
     - HTTP Method: PUT
@@ -51,27 +51,27 @@ This application was developed based on an MVC architecture model (Model, View, 
     - Controller: UserController
 
 
-#### **Login User**
+##### **Login User**
     
     - Route: http://localhost:3000/login
     - HTTP Method: POST
     - Model: User
     - Controller: LoginController
 
-#### **Authentication Middleware**
+##### **Authentication Middleware**
 
     - Global middleware, executed before any user update request
     
     - Its purpose is to validate the authentication of a user, using the token sent in the request authentication header
 
-## :wrench: **Configurations**
+### :wrench: **Configurations**
 
-### :file_folder: src/config/authConfig.js
+#### :file_folder: src/config/authConfig.js
 
     - authConfig.js (already with MD5 Encryption for jwt.sign)
     - database.js (needs username, password and database name)
 
-### :dvd: Deploy
+#### :dvd: Deploy
 
     - yarn (install dependencies listed on packade.json)
     - yarn sequelize db:migrate  (to run migrations)     
